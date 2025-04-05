@@ -176,8 +176,12 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 		margin: 0 0 2rem 0;
+	}
+
+	.paraHeight{
+		height: 150px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2630,6 +2634,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+    			height: 208px;
 			}
 
 		.image.main {
@@ -3839,6 +3844,7 @@ input, select, textarea {
 			text-align: center;
 			width: 100%;
 			padding: 0;
+			justify-content: center;
 		}
 
 			#main > .posts > * {
